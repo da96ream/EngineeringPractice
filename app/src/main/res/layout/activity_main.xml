@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:id="@+id/videoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/headpicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/imageview_background"
+                android:src="@drawable/ic_launcher_foreground" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ID"
+            android:layout_below="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="60dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="账号："
+                android:textColor="#fffff0"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/UserID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Password"
+            android:layout_below="@+id/ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="60dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textPW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密码："
+                android:textSize="30dp"
+                android:textColor="#fffff0" />
+            <EditText
+                android:id="@+id/UserPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:background="@drawable/edit_background"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+
+            <SeekBar
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="100dp"
+                android:max="100"
+                android:progress="0"
+                android:background="@drawable/seekbar_background"
+                android:thumb="@drawable/loginbtn" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/EngineeringPractice/app/src/main/res/drawable-v24/edit_background.xml" value="0.241" />
+        <entry key="..\:/EngineeringPractice/app/src/main/res/drawable-v24/home_Button.xml" value="0.205" />
+        <entry key="..\:/EngineeringPractice/app/src/main/res/drawable-v24/homepagebackground.xml" value="0.241" />
+        <entry key="..\:/EngineeringPractice/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.241" />
+        <entry key="..\:/EngineeringPractice/app/src/main/res/drawable-v24/imageview_background.xml" value="0.241" />
+        <entry key="..\:/EngineeringPractice/app/src/main/res/drawable-v24/login_background.xml" value="0.241" />
+        <entry key="..\:/EngineeringPractice/app/src/main/res/drawable/home_buton.xml" value="0.205" />
+        <entry key="..\:/EngineeringPractice/app/src/main/res/drawable/home_button.xml" value="0.205" />
+        <entry key="..\:/EngineeringPractice/app/src/main/res/drawable/ic_launcher_background.xml" value="0.241" />
+        <entry key="..\:/EngineeringPractice/app/src/main/res/drawable/seekbar_background.xml" value="0.241" />
+        <entry key="..\:/EngineeringPractice/app/src/main/res/layout/HomePage.xml" value="0.2828125" />
+        <entry key="..\:/EngineeringPractice/app/src/main/res/layout/activity_main.xml" value="0.40110395584176634" />
+        <entry key="..\:/EngineeringPractice/app/src/main/res/layout/homepage.xml" value="0.57421875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
